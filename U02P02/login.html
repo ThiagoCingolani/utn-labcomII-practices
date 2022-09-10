@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="background-color: #1E90FF;">Registro de la AFIP</h1>
+    <hr>
+    <h2>1. Ingrese su nombre y apellido</h2>
+    <h2>2. Ingrese su clave fiscal</h2>
+    <h2>3. Seleccione "Enviar"</h2>
+    <hr>
+    <form action="/accion.php">
+        <label for="nombre">Nombre y Apellido:</label>
+        <input type="text" id="nombre" name="nombre"/>
+        <br>
+        <label for="clave">Clave Fiscal:</label>
+        <input type="text" id="clave" name="clave"/>
+        <br>
+        <label for="checkbox">Recordar Datos</label>
+        <input type="checkbox" name="check1" id="check1">
+        <br>
+        <input type="submit" value="Enviar" />
+    </form>
+</body>
+</html>
